@@ -1,0 +1,19 @@
+:root { --mavi: #6bc2f1 }
+header { background: url('img/headerbg.jpg') 55% 50%/cover; }
+.text-mavi { color: var(--mavi) }
+.bg-mavi { background-color: var(--mavi) }
+.vh-50 { height: 50vh;}
+#f1 { background: url('img/f1.jpg') center/cover }
+#f2 { background: url('img/f2.jpg') center/cover }
+#f1:hover, #f2:hover { opacity: .6;}
+#f1:hover h4, #f2:hover h4 { display: initial!important;}
+.card-img-top{width:fit-content;}
+.carousel-indicators [data-bs-target] {
+    text-indent: initial !important;
+    opacity: initial !important;
+    background-color: transparent !important;
+    transition: 1s !important;
+}
+.carousel-indicators [data-bs-target] img { height: 30px;}
+.carousel-indicators .active { scale: 1.3;}
+footer{background: #072035;}
